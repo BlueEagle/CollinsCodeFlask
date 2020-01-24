@@ -1,2 +1,2 @@
 #!/bin/bash
-. ../venv/bin/activate && export FLASK_APP=app.py  && export FLASK_ENV=development && flask run
+clear && figlet "BinServ Active!" && export FLASK_APP=app.py  && export FLASK_ENV=development && python -m flask run
