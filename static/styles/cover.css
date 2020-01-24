@@ -67,21 +67,21 @@ body {
   vertical-align: top;
 }
 .site-wrapper-inner2 {
-  background-image: url("background2.jpg");
+  background-image: url("../images/background2.jpg");
   background-position: center;
   background-size: cover;
   display: table-cell;
   vertical-align: top;
 }
 .site-wrapper-inner3 {
-  background-image: url("background3.jpg");
+  background-image: url("../images/background3.jpg");
   background-position: center;
   background-size: cover;
   display: table-cell;
   vertical-align: top;
 }
 .site-wrapper-inner4 {
-  background-image: url("background4.jpg");
+  background-image: url("../images/background4.jpg");
   background-position: center;
   background-size: cover;
   display: table-cell;

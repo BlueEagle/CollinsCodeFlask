@@ -7,9 +7,9 @@
    <meta name="author" content="Collin Ballou">
    <title>Collin's Code</title>
    <!-- BOOTSTRAP core CSS -->
-   <link rel="stylesheet" href="{{ url_for('static/styles',filename='bootstrap.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static',filename='styles/bootstrap.css') }}">
    <!-- Imported Custom Style -->
-   <link href="{{ url_for('static/styles',filename='cover.css') }}" rel="stylesheet">
+   <link href="{{ url_for('static',filename='styles/cover.css') }}" rel="stylesheet">
 
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
    <!--[if lt IE 9]>
@@ -142,6 +142,6 @@
     </div>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-   <script src="{{ url_for('static/styles',filename='bootstrap.min.js') }}"></script>
+   <script src="{{ url_for('static',filename='styles/bootstrap.min.js') }}"></script>
  </body>
 </html>
